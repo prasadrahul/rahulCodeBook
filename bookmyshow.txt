@@ -1,0 +1,33 @@
+2
+1 3
+20 20 50
+30 20 0
+60 50 0
+2 2
+20 20 20
+30 20 40
+10 100 90
+35 60 50
+
+
+//
+Objective: to Pick the Cheaper Shop by there given three successive discount percentage
+
+Input:
+
+The first line of the input contains an integer T denoting the number of test cases. 
+The description of T test cases follows.
+The first line of each test case contains two integers N and M as described below in details.
+Then three successive discount details for Each shop respective to each item.
+
+N --> No. Of Item
+M --> No. Of Shop on which respective item is availible
+
+Output:
+
+For each test case, output a single line containing the shop number (cheaper one) with space for multiple Item. 
+
+Reqquired output:
+3  
+2 1  
+//
