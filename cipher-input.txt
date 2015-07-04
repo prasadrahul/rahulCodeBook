@@ -1,0 +1,13 @@
+hacker
+0000000000001a000d00
+
+
+
+
+//
+Decoding chiper code using XOR-ing back to original value.
+
+required Output:
+hackerrank
+
+//
