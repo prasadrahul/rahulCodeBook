@@ -19,7 +19,7 @@ public class TestCipher {
 
         try{
 //            bin = new BufferedReader(new InputStreamReader(System.in));
-              bin = new BufferedReader(new FileReader("inputdata.txt"));
+              bin = new BufferedReader(new FileReader("cipher-input.txt"));
 
 //            String cipherKey;
 //            String cipherText;
