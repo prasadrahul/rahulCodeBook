@@ -1,0 +1,105 @@
+What are the different access levels ?
+
+ public, private, global, protected
+ private, protected, package, public
+ private, protected, public
+ protected, public, global, local
+
+----------------
+
+Predict the output of below Java code:
+
+interface Parent
+{
+    public void run();
+}
+class Child implements Parent
+{
+    public void run()
+    {
+        System.out.println("HackerEarth");
+    }
+}
+class Subclass extends Child
+{
+    public void run()
+    {
+        System.out.println("IndiaHacks");
+    }
+}
+class M
+{
+    public static void main(String args[])
+    {
+     Parent sc= new Subclass();
+        sc.run();
+       Parent c=new Child();
+         c.run();
+}
+}
+ HackerEarth
+ IndiaHacks HackerEarth
+ Compilation fails
+ Runtime error
+-------------
+
+
+--------
+
+What is the immutable method?
+
+ A method with a body only.
+ A method which is declared as a final.
+ A non-static method.
+ None of the above
+
+ ------
+
+ Which clause restricts the rows in return query when we use it in a query?
+
+  AND
+  WHERE
+  HAVING
+  FROM
+  ----------
+  Which of the following command is used in MySQL to set a root password if there is no root password?
+
+   mysqladmin -u root oldpassword newpassword
+   mysqladmin -u root setpassword newpassword
+   mysqladmin -u root password newpassword
+   mysqladmin -u root password new-password
+   --------------
+ While adding constraint to the client-server interaction, communication must be ________________.
+
+  dynamic in nature
+  static in nature
+  stateless in nature
+  restless in nature
+------------------
+Which of the following is REST Architectural Views?
+
+ Complex view
+ Readable view
+ Simple view
+ Data view
+
+----------
+How many JsonArrays and JsonObjects are there in the below file:
+
+{
+“contacts”:[
+{
+     “id”:”01”,
+    “name”:”rohit”,
+    “phone”:{
+                “mobile”:”+990123450”,
+                “home”:”080 0444444”
+                  }
+}]
+}
+ 1 JsonArray and 2 JsonObjects
+ 1 JsonArray and 3 JsonObjects
+ 2 JsonArray and 2 JsonObjects
+ None of the above
+------------
+

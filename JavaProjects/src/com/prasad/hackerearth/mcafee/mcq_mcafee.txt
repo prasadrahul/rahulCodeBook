@@ -1,0 +1,119 @@
+What command is used to create a backup configuration?
+
+ copy running backup
+ copy running-config startup-config
+ config mem
+ wr mem
+
+ -----------
+
+ What protocol does PPP use to identify the Network layer protocol?
+
+  NCP
+  ISDN
+  LCP
+  HDLC
+
+  ----------
+
+  Your company has a LAN in its downtown office and has now set up a LAN in the manufacturing plant in the suburbs. To enable everyone to share data and resources between the two LANs, what type of device(s) are needed to connect them? Choose the most correct answer.
+
+   Modem
+   Cable
+   Router
+   Hub
+ ---------------
+ What flavor of Network Address Translation can be used to have one IP address allow many users to connect to the global Internet?
+
+  NAT
+  Static
+  Dynamic
+  PAT
+ ------------
+ Which command is used to find the number of hops required for a particular packet to reach the destination?
+
+  ping
+  netstat
+  traceroute
+  config
+ ---------
+ What will be the output of the below C program ?
+
+ #include <stdio.h>
+
+ int main()
+ {
+  char h[]="hac\0ker";
+  int i=0;
+  for(; h[i] ;)
+  {
+   printf("\n%c%c%c%c",*&h[i],*(*&h+i),*(i+&*h),i[*&h]);
+    i++;
+  } }
+  Compilation fails
+  hhhh, aaaa, cccc
+  kkk, eee, rrr
+  hhhh, aaaa, cccc, kkk, eee, rrr
+ --------------
+
+Predict the output of below C++ code:
+
+ #include <iostream>
+ using namespace std;
+   int main()
+       {
+        for(int i = 1; i <= 100;i++)
+      if( i & 1 )
+      cout <<i<<endl;
+        }
+ Prints all the prime number
+ Prints all the even number
+ Prints all the odd number
+ Prints all the natural number
+
+ ------------
+
+ Predict the output of below C++ code:
+
+ #include <iostream>
+ using namespace std;
+ void func(int x)
+ {
+ cout << x ;
+ }
+ int main()
+ {
+ void (*n)(int);
+ n = &func;
+ (*n)(1);
+ n(1);
+ return 0;
+ }
+  22
+  12
+  11
+  1
+ -------------
+
+ Which of the following data structures is suitable for modelling telephone connections in a network?
+
+  circular linked lists
+  m-ary trees
+  graphs
+  sets
+ -----------
+ Predict the output of below C code:
+
+ #include <stdio.h>
+     void main()
+     {
+         char *x = "hack";
+         char *y = *(&x);
+         printf("%p\t%p", x, y);
+     }
+  Same address is printed.
+  Different address is printed.
+  Compilation fails.
+  Runtime error
+
+ ---------------

@@ -1,0 +1,93 @@
+If you had to alter the context of the template which of the following is not the way to go?
+
+ Template Filter
+ Template Tag
+ Template Simple Tag
+ Inclusion Tag
+
+---------------
+What does a context processor return?
+
+ Html Response
+ Json Response
+ Python Dictionary Object
+ Set
+-------------
+What will be the output of the following code:
+
+def foo(target):
+    a = 1
+    b = 1
+    for i in xrange(10):
+        target.send(b)
+        a, b = (b, a + b)
+
+def bar():
+    y = 0
+    while True:
+        x = yield
+        print x
+
+g = bar()
+g.next()
+
+foo(g)
+ 1, 2, 3, 5, 9, 13, ...
+ 2, 3, 5, 8 , 13, ...
+ 1, 1, 2, 3, 5, 8, 13, ...
+ Raises Exception
+--------------
+
+What would be the output of following code?
+
+a = [1, 3]
+b = a
+b.append(5)
+print len(a)
+ [1, 3]
+ 3
+ Above code will raise some exception.
+ 2
+ -----------
+What will be the output of following code?
+
+class A(object):
+    def __init__(self, i=0):
+        self.i = i
+    def m1(self):
+        self.i += 1
+class B(A):
+    def __init__(self, j=0):
+        A.__init__(self, 3)
+        self.j = j
+    def m1(self):
+        self.j += 1
+def main():
+    b = B()
+    b.m1()
+    print(b.i, b.j)
+main()
+ 2 0
+ 3 1
+ 4 1
+ 3 0
+------------
+class A(object):
+    def __init__(self, i=0):
+        self.i = i
+    def m1(self):
+        self.i += 1
+class B(A):
+    def __init__(self, j=0):
+        A.__init__(self, 3)
+        self.j = j
+    def m1(self):
+        self.j += 1
+def main():
+    b = B()
+    b.m1()
+    print(b.i, b.j)
+main()
+
+-----------------
+

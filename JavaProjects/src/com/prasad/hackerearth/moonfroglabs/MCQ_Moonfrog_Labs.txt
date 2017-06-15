@@ -1,0 +1,82 @@
+Which of the following steps will you take to create a Thread using runnable interface.
+
+Implement Runnable interface on the class.
+Implement the run () of the Runnable interface.
+Create instance of the class(Runnable object).
+Create a thread object by passing the runnable object as a parameter.
+Start the thread.
+ Only 1 ,2 ,5
+ Only 1, 3 ,4
+ Only 2 , 4, 5
+ 1,2,3,4,5
+----------------
+Suppose if you drop a table from the database, then what will happen?
+
+ Views and Indexes are automatically dropped and Constraints and SEQUENCE remain.
+ Indexes and Constraints are automatically dropped and views and SEQUENCE remain.
+ Once the table dropped nothing remain.
+ Only VIews drop but Indexes remain.
+----------------
+Which of the Database object below will generate the numeric values?
+
+ View
+ Index
+ Sequence
+ Table
+-----------
+Which of the following statement below is/are correct?
+
+ The WHERE clause as well as HAVING clause restricts columns.
+ The WHERE clause restricts rows, whereas the HAVING clause restricts groups.
+ The WHERE clause restricts column, whereas the HAVING clause restricts groups.
+ None of them are correct.
+--------------
+Which line the below code will result in Compile-time error?
+
+class A implements Runnable{public void run() {}}
+class B {
+  public static void main(String[] args) {
+    Thread t1 = new Thread();             // 1
+    Thread t2 = new Thread(new A());      // 2
+    Thread t3 = new Thread(new A(), "A"); // 3
+    Thread t4 = new Thread("A");          // 4
+}}
+ 1
+ 2
+ 3
+ 1,4
+ None of the above
+----------------
+Which of the following are not valid operator for the where clause?
+
+ >=
+ IS NULL
+ IS LIKE
+ <>
+
+-----------
+When a time slot given to a process is completed in a time-sharing operating system, the process goes from the running state to the:
+
+ Blocked State
+ Ready State
+ Suspended State
+ Terminated State
+
+--------------
+Let the time taken to switch between two processes be t1 and the time taken to switch between user and kernel modes of execution be t2. Which of the following is TRUE ?
+
+ t2 > t1
+ t1 > t2
+ t1 = t2
+ No relation
+
+-----------
+
+Which command is used to find resource limits to the session?
+
+ rlimit
+ setrlimit
+ ulimit
+ getrlimit
+
+--------------

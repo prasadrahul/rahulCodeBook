@@ -1,0 +1,95 @@
+Which of the following methods provide a two-state toggleable option ?
+
+ SwitchPreference
+ TwoStatePreference
+ PreferenceGroup
+ PreferenceCategory
+ ------------
+ What is the outcome of the following code snippet ?
+
+ Intent i = new Intent(getApplicationContext(), Activity2.class);
+startActivity(i);
+ destroy Activity
+ start activity
+ startanotheractivity
+ None of the above
+ ------------------
+ Which of the following is used to implement frame animation in android ?
+
+ Drawable class
+ In layout file
+ Animation DrawableClass
+ Animation class
+ ----------------------
+ What will the following code snippet do ?
+
+var subArr:Array=sub.split(‘ ‘);
+    sub = subArr.join(‘%20’);
+ It will search and replace
+ It will only search
+ It will only replace
+ None of the above
+ -------------
+ What are the different access levels?
+
+ public, private, protected,global
+ public, private, package, global
+ public, private, package, protected
+ public, private, package, default
+ ----------------
+ Which of these methods helps in showing a hierarchy of preference objects as lists ?
+
+ PreferenceGroup
+ PreferenceFragment
+ PreferenceScreen
+ TwoStatePreference
+ --------------------
+ Which of these methods helps in changing the current result code of the broadcast which is sent through Context.sendOrderedBroadcast ?
+
+ setResult
+ setResultCode
+ SetResultData
+ setResultExtra
+
+ ----------------
+ Which of these helps in dispatching when the user changes the accessing of permission to geolocation ?
+
+ StatusEvent.Status
+ Event.Status
+ Geolocation.Status
+ GeolocationEvent.Status
+ ------------
+ How many JsonArrays and JsonObjects are there in the below file:
+
+{
+“contacts”:[
+{
+     “id”:”01”,
+    “name”:”rohit”,
+    “phone”:{
+                “mobile”:”+990123450”,
+                “home”:”080 0444444”
+                  }
+}]
+}
+ 1 JsonArray and 2 JsonObjects
+ 1 JsonArray and 3 JsonObjects
+ 2 JsonArray and 2 JsonObjects
+ 1 JsonArray and 1 JsonObjects
+ -------------
+ Predict the output of below Java code:
+
+class Test {
+    public static void main(String args[]) {
+        System.out.println(fun());
+    }
+    static int fun()  {
+        static int x= 10;
+        return x--;
+    }
+}
+ Runtime error
+ Compilation fails
+ 10
+ 9
+ ---------------
